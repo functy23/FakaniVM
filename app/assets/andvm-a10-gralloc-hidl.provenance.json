@@ -1,0 +1,31 @@
+{
+  "guestSdk": 29,
+  "sha256": "ad90f54d7964707227a7f02a0f664ec5adba54aef3f9b31d101b8b2cb463d2dc",
+  "files": {
+    "bin/andvm_allocator_hidl": "5178bbbfe711e281f906e2e2ebb9dffca844ce4cd9f1b408fcbcfbfde245b41f",
+    "bin/andvm_allocator_hidl29": "4de279f8f7be7ae519a2562153dcb6ab48b878af3c5c9f4c705bc1c81a69d980",
+    "lib64/andvm-gralloc/libandvm_legacy_gralloc_abi.so": "57798bb362e4b10349653a4f4b77036c19adbc98b9fb8240ff73d3c1e21a8529",
+    "lib64/hw/android.hardware.graphics.mapper@3.0-impl.minigbm.so": "3c0a93ad8726eb6c1b7c66ad83238fcdb66f2f9e67f855a01ec9607b8d41ba52",
+    "lib64/hw/android.hardware.graphics.mapper@4.0-impl.minigbm.so": "145d883c11c98a6886324f1380115764c6149960ecc45c72e34cbef977f977ad"
+  },
+  "products": {
+    "android.hardware.graphics.mapper@3.0-impl.minigbm.so": "3c0a93ad8726eb6c1b7c66ad83238fcdb66f2f9e67f855a01ec9607b8d41ba52",
+    "andvm_allocator_hidl29": "4de279f8f7be7ae519a2562153dcb6ab48b878af3c5c9f4c705bc1c81a69d980",
+    "gralloc29-probe": "95e158fded1f92ad5245b29e7219a86a15c434f18374c7c67a0ff3e8a0812f11"
+  },
+  "ndk": "21.4.7075529",
+  "sourceInputLockSha256": "31e9b6b99f04faab0d82e3ec3794ae523e8e66f7e659e583de521dfd48e0f7e1",
+  "minigbmRevision": "ce79bbee67b3e2ea7abb110e1415e9ceceaa6471",
+  "baseHidl4PayloadSha256": "b5524488a3b45859f90bba8922e8a93129e8197ab5f6b186cb0a17eaea23a5af",
+  "platformAbi": "API29 libhidl/libutils/libc++ __1; frozen HIDL 3.0/4.0 wire interfaces",
+  "allocationAuthority": "Existing minigbm HIDL4 service; HIDL3 translates descriptors and forwards allocation",
+  "bufferTransport": "AndVM libkum C ABI; DRM virtgpu; full minigbm metadata FD",
+  "projectSources": {
+    "Mapper.cpp": "39a9db8e71677bce0ff110e1ee248e069a1fdb612e599f9d2f9ac54c3c3f4a2d",
+    "mapper.map": "3f79cbd61ebf5c44db98f0bda3eac6f65570f3c0c7a88738fb3efc4a2130b769",
+    "Probe.cpp": "5f03cc1cd35e4d1a924cff6165ac7e28f071af8546f19a6bdd70e7b7110befc0",
+    "Allocator4Client.h": "7da61b4d3c6b4caf9186a9ae5b448158316ad69ce7625363268a023af68df63b",
+    "Gralloc3.h": "710d1bda58ca0ef664b5591254172d7d84f52a6453a19de4c06d1726364bf5ea",
+    "Allocator.cpp": "049fabbe1cd6bf37f97d7ee3c16555f525b3d35bd17d12d75c575515a0edfbe8"
+  }
+}

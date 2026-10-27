@@ -1,0 +1,8 @@
+schema=1
+artifact=payload-bzip2-source
+source_version=1.0.8
+source_url=https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz
+source_sha256=ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269
+source_manifest_sha256=82fd851a551fa43b80d52ccaea0a10e5fc1ac5a9e7a7a306e05dfb85226495a6
+license_sha256=c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3
+codec_linkage=static

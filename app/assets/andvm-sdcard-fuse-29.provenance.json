@@ -1,0 +1,52 @@
+{
+  "architecture": "aarch64",
+  "files": {
+    "system/bin/andvm-sdcard": "d946c666e679478de81d562340c1dc7a83bd97401054faebf2442d5af2e3a952"
+  },
+  "guestSdk": 29,
+  "legacyObbRepair": "Q migration-script contract plus no-symlink root:root0700 Android/obb structural pair only; fchown two directories, preserve mode and nested content",
+  "limitations": [
+    "No sdcardfs lower quota GID rewriting; same boundary as AOSP legacy FUSE"
+  ],
+  "ndk": "21.4.7075529",
+  "payloadSha256": "ead851b1ae6e4b511d5bbd60312955bdcdb74b3d66deead7380c833b36d9aeda",
+  "portInputs": {
+    "README.md": "993bce2d729efc537042af79719b17c743d32221ebcf2ab33a8dd2da7e5f1fe2",
+    "access_fixture.cpp": "3309d64c40044a07c0a6e46352211a3d1347712b46d383981a7aee87500ff6e4",
+    "compat.h": "131d00aca065d277e20ae730c7a5f81cc2e40c54680a0ff7ef28224c91aa34ef",
+    "legacy_obb_repair.h": "990e21e54bd212f73053441429b70565461ab33c5bc7f50d78aeea3700aec606",
+    "legacy_obb_repair_fixture.cpp": "b847094128239f6663908a2fd3767e12bd9de3a7cdb9a700a936a5ce2a34b98c",
+    "policy.h": "b223f71f2a6a426002faa31e5b1d04d815337a954d52baddb6a2c8494c9852e5",
+    "policy_test.cpp": "370cece07ec258b3754e136d7bcd0786a364432166bc506650282605af0adcee",
+    "port.py": "8e54e977e8b4e712feca116d8e05c7396882542fdca5b8380534ae092510eac2",
+    "service.cpp": "2a25d5026f1c69fb0e557052687751fcde0aa295d25af3d7415cad2fd78bff41",
+    "sources.json": "95cd312622c476d804fc73e927734b0679dc344da82a6b140f31716d672e8d14"
+  },
+  "selection": "Runtime /proc/filesystems plus actual persist.sys.sdcardfs / ro.sys.sdcardfs; preserve working ROM backend",
+  "storage": "Real FUSE operations on original backing; four Q views; visible package/user permissions; unshared OBB",
+  "stripping": {
+    "loadedElfIdentityUnchanged": true,
+    "productionBytes": 1034976,
+    "tool": "NDK 21.4.7075529 llvm-strip --strip-debug",
+    "unstrippedBytes": 5180368,
+    "unstrippedSha256": "6b2a2ebe3c975c661e619cff36fc3a29ed7840f77ebb3c6ed8a5e8539e1480af"
+  },
+  "upstream": {
+    "files": {
+      "upstream/fuse.cpp": {
+        "sha256": "dcd74827a7ccd84af77ce7bb768c50554bfa5fdd425226dd74366261a09f0c16",
+        "url": "https://android.googlesource.com/platform/system/core/+/android-8.1.0_r1/sdcard/fuse.cpp"
+      },
+      "upstream/fuse.h": {
+        "sha256": "8f7d1dda0cdd4d28452b7ed20cb50dd15526922f1261ed0242b4563aaf41eefa",
+        "url": "https://android.googlesource.com/platform/system/core/+/android-8.1.0_r1/sdcard/fuse.h"
+      },
+      "upstream/sdcard.cpp": {
+        "sha256": "1e8518abf9a32c49ba722337497eaa2abf109ca9caba9ce948303553b3f526ad",
+        "url": "https://android.googlesource.com/platform/system/core/+/android-8.1.0_r1/sdcard/sdcard.cpp"
+      }
+    },
+    "tag": "android-8.1.0_r1",
+    "tree": "a4475d388f53898f8e0c728385e43aac2335e83f"
+  }
+}

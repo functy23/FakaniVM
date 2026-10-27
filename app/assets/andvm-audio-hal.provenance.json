@@ -1,0 +1,6 @@
+{
+  "source_sha256": "c5cd786601c2d0b24c136d52e50594220ffa5f808beb8831c03521e449f98fa1",
+  "artifact_sha256": "da68f8adc4472e1edbadd9c0378337e196050a62acacdf2966607bdb9fb4d179",
+  "source_archive_sha256": "cfd67757a9af15cb769059a523b576cfc573e5de7a4c52e73272079544cab772",
+  "capability": "mmap-shared-aaudio-output-v2"
+}

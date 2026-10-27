@@ -1,0 +1,36 @@
+{
+  "abiVerification": {
+    "binary": "andvm_configstore_hidl",
+    "platformLibraries": 18,
+    "problems": [],
+    "versionedImportsChecked": 666
+  },
+  "commonPageSize": 4096,
+  "configuration": "all-optional-fields-unspecified-and-zero-initialized",
+  "coreHeadersManifestSha256": "3046ebd29f32418ec08366233734cee61b263d7a0752132911fa66198a1649e4",
+  "files": {
+    "bin/andvm_configstore_hidl": "9ca31482ad75498f82b84d89e9b4b9f6038ffec1d9e0e8de964f5f5662d16dae"
+  },
+  "guestSdk": 29,
+  "headersManifestSha256": "87e10d7524f274214786f19937f618973d9d7b0f840b59b153743b6a4aa947be",
+  "interface": "android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default",
+  "linkLibraries": {
+    "android.hardware.configstore@1.0.so": "35b088cef78cba6b3e5ed4c7a38a904676d5490fe9226b5c86b5322f4f24b440",
+    "libc++.so": "b80e3e846106faaa105ea5b1083be65a26124ddbe6ffadfa47f3fc6621ed357f",
+    "libhidlbase.so": "01b029e4dc8bd6e3e958429324c33914696c54d8ae0eeebbd5fc1c791db8f306",
+    "libhidltransport.so": "b745964db16179f87d38191f20444c5da641795a7974cc44789b4e03351af18b",
+    "liblog.so": "98fc36f851044f4b8e922588513db162c2e4c165287c26df69646739334e8044",
+    "libutils.so": "907ce0c3c5255230ad32c902ac7efdbfe9a6ea3f0c7ab8af694d11fa3f18011a"
+  },
+  "maxPageSize": 16384,
+  "ndkRevision": "21.4.7075529",
+  "payloadSha256": "533fb1c60101d72d3fce5f988e9ac242919621a748bdfae5c0c9fc637e967e06",
+  "platformArchive": {
+    "sha256": "7fd1610e16a69ac2e202278e82077de134ce404fe099d872019f69f3a340acdd",
+    "size": 498049256,
+    "url": "https://dl.google.com/android/repository/sys-img/android/arm64-v8a-29_r08.zip"
+  },
+  "platformInputLockSha256": "eb542e74177cdb1acc82b6020fce59ee58ceb1532c77e100e129e6d6ca95aad3",
+  "serviceSourceSha256": "9e0819c496a00b54a3f1bcc571bfa3c57b5c64092d9b099e3a130a9aed95521f",
+  "systemImageSha256": "3292f3ab677b975e51566e53355ae9c268e17b86888a9a8b40f8e6c3372fc26c"
+}

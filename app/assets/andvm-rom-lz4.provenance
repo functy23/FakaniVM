@@ -1,0 +1,8 @@
+schema=1
+artifact=rom-lz4-source
+source_version=1.10.0
+source_url=https://codeload.github.com/lz4/lz4/tar.gz/refs/tags/v1.10.0
+source_sha256=537512904744b35e232912055ccf8ec66d768639ff3abe5788d90d792ec5f48b
+source_manifest_sha256=a0dc79b3e58bc4a446130a7c9cf5e81bc7ab8969667624be6cb29578f67e9114
+license_sha256=8b58c446121a109ccf32edc094bba3010a3d85e4ee3702950db55e4d3e87736c
+codec_linkage=static

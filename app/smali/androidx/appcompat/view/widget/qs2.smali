@@ -1,0 +1,84 @@
+.class public final synthetic Landroidx/appcompat/view/widget/qs2;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Landroidx/appcompat/view/widget/ဉۤ;
+
+
+# instance fields
+.field public final synthetic ڜ:Landroidx/appcompat/view/widget/छࠖछ;
+
+.field public final synthetic ೠ:Landroidx/appcompat/view/widget/աَ;
+
+.field public final synthetic ആ:Landroidx/appcompat/view/widget/ၕ֔;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroidx/appcompat/view/widget/ၕ֔;Landroidx/appcompat/view/widget/छࠖछ;Landroidx/appcompat/view/widget/աَ;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Landroidx/appcompat/view/widget/qs2;->ആ:Landroidx/appcompat/view/widget/ၕ֔;
+
+    .line 5
+    .line 6
+    iput-object p2, p0, Landroidx/appcompat/view/widget/qs2;->ڜ:Landroidx/appcompat/view/widget/छࠖछ;
+
+    .line 7
+    .line 8
+    iput-object p3, p0, Landroidx/appcompat/view/widget/qs2;->ೠ:Landroidx/appcompat/view/widget/աَ;
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Landroidx/appcompat/view/widget/qs2;->ആ:Landroidx/appcompat/view/widget/ၕ֔;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, Landroidx/appcompat/view/widget/qs2;->ڜ:Landroidx/appcompat/view/widget/छࠖछ;
+
+    .line 4
+    .line 5
+    iget-object p0, p0, Landroidx/appcompat/view/widget/qs2;->ೠ:Landroidx/appcompat/view/widget/աَ;
+
+    .line 6
+    .line 7
+    check-cast p1, Landroidx/appcompat/view/widget/ˀ;
+
+    .line 8
+    .line 9
+    check-cast p2, Ljava/lang/Integer;
+
+    .line 10
+    .line 11
+    invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
+
+    .line 12
+    .line 13
+    .line 14
+    move-result p2
+
+    .line 15
+    invoke-static {v0, v1, p0, p1, p2}, Lobfuscated/p99f5bd82e4839d1b/c35d9ba095bedbb30441be30d;->ʥ(Landroidx/appcompat/view/widget/ၕ֔;Landroidx/appcompat/view/widget/छࠖछ;Landroidx/appcompat/view/widget/աَ;Landroidx/appcompat/view/widget/ˀ;I)Landroidx/appcompat/view/widget/ln3;
+
+    .line 16
+    .line 17
+    .line 18
+    move-result-object p0
+
+    .line 19
+    return-object p0
+.end method

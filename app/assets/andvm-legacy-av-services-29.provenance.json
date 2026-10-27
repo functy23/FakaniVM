@@ -1,0 +1,69 @@
+{
+  "files": {
+    "apex/com.android.runtime/bin/dex2oat": "c12af2d57956f5e861e17040cac481d418635393157c53cf09c1003a6d8e2ab4",
+    "apex/com.android.runtime/bin/dexoptanalyzer": "ec7cf94b6a29876d8cc5f8a218a99b8157fb4d907818665096fe765e81895fea",
+    "apex/com.android.runtime/bin/profman": "a276575b70a0a49a08215bce23d68ba859f36115c0a267df3fce5c0f0d2c3f89",
+    "profiles/resource-manager-v2/system/bin/mediaserver": "79d497c84e1f04590b6801b66c789fd598d35e5fc31dba7115c8d5626b8cdf3f",
+    "profiles/resource-manager-v2/system/lib64/libresourcemanagerservice.so": "9dd5e0627d9f9862c043680a2b4fb943bbfb9ee40e8dde8c46b32d99fbda3dc6",
+    "system/bin/cameraserver": "ad2a90f8ee90844133b1b26d0c5025e8306c58bf269c32c541f4f8efe2d8f596",
+    "system/bin/drmserver": "9d6b8bf0e15980bf1ace7e31315a9ac07e9a420dfcc24e8c28532b27a6a1d339",
+    "system/bin/mediadrmserver": "7bbc2d56f5b46c9237069bbe5c7e1dfe43e68fe7f421b6095e572427871d1128",
+    "system/bin/mediaserver": "840552bd60908e28f9691c92dcb6c8780d77c22c2dbf358fa459a5c5a2ea0513",
+    "system/lib64/android.frameworks.cameraservice.common@2.0.so": "3d299599b76fea2a77b83359e1b377672c098fe67b679da9850dc94bb92958fe",
+    "system/lib64/android.frameworks.cameraservice.device@2.0.so": "d3e7fdddfca3f9c80c18fae11863cce81991ab4f7028a360f30df33a8844dd42",
+    "system/lib64/android.frameworks.cameraservice.service@2.0.so": "f89945d7cbf7eb3ff36b5f934c97cc6d5f0831a50933f5f218b8799a4bdad126",
+    "system/lib64/android.hardware.camera.common@1.0.so": "60398804b7e225695d9f9919172b957a362f9ed4a5892f102caeb564b7927de4",
+    "system/lib64/android.hardware.camera.device@1.0.so": "3ba2b17b15b83c7372713bdd27d14de9a522b9258d2d667091e9acceeae8b491",
+    "system/lib64/android.hardware.camera.device@3.2.so": "f2776f9d533d9092e6bd15996f76fa374b802b9ee9e70bf4c8c862295268dfc1",
+    "system/lib64/android.hardware.camera.device@3.3.so": "b9298daefd2a6400d63059bf35662fbadddccad0ed50b49bb13812b9f27bfeb8",
+    "system/lib64/android.hardware.camera.device@3.4.so": "8fdbff5a1200ab32eae2032de2d7dc7295022072d193209ab9dd4612592f6579",
+    "system/lib64/android.hardware.camera.device@3.5.so": "080cafd432210a1f2b1c154d8720d84d8af24e587466bee5252eea17071cd8bd",
+    "system/lib64/android.hardware.camera.provider@2.4.so": "5999f00ef9fd330c683378c80aeccf02528e103d82d4c7e8e834178f15a45859",
+    "system/lib64/android.hardware.camera.provider@2.5.so": "c6bd85b885a68720cad6238fddcb236b31ce111a1f46fb821b7b6ef696e3e3d6",
+    "system/lib64/libcameraservice.so": "36fbaa0b86a9e25fd34527adcb7ab1395b0a39666b7321dd22ad9ce9b7c2b2bf",
+    "system/lib64/libdynamic_depth.so": "2653ecaec182e2f1d71ead6fbb183077404c13eaa3acdda6a05ed65e1b6a6259",
+    "system/lib64/libexif.so": "9670d28eb1f4928425c06d49233cecc34ea8cdfa775e68fe9ebad7c372eba277",
+    "system/lib64/libimage_io.so": "f171cca47ace2efc39a714b60533704652bdc7345e700a59e95fcd582fbcbd06",
+    "system/lib64/libmediaplayerservice.so": "5bd4757a728a4c002d858f33773d2aa7f05b314c45e9ff7b54353cf02b76c2a6",
+    "system/lib64/libresourcemanagerservice.so": "8c1637175427149351459201d2bb4bd6b89c18fc7ba4e8514ebf72e69979a080",
+    "system/lib64/libstagefright_httplive.so": "9b7e15c84f4e41fe45e31aada777ca8a4d489ee8d41387ace64e0c74f076ee3b",
+    "system/lib64/libyuv.so": "9cd4034b905262eae7874a8ccffd8c2c86f70c779ea6a186407501d47664d738"
+  },
+  "guestSdk": 29,
+  "payloadSha256": "fc878b4a25a841d9f402e1a339a93da6c37f541c082b476d94d09eeba0da161a",
+  "resourceManagerV2": {
+    "abiVerification": {
+      "system/bin/mediaserver": {
+        "binary": "mediaserver",
+        "platformLibraries": 120,
+        "problems": [],
+        "versionedImportsChecked": 2820
+      },
+      "system/lib64/libresourcemanagerservice.so": {
+        "binary": "libresourcemanagerservice.so",
+        "platformLibraries": 80,
+        "problems": [],
+        "versionedImportsChecked": 2106
+      }
+    },
+    "contract": "Q removeResource-vector and separate removeClient; ResourceManagerService size 160",
+    "files": {
+      "system/bin/mediaserver": "79d497c84e1f04590b6801b66c789fd598d35e5fc31dba7115c8d5626b8cdf3f",
+      "system/lib64/libresourcemanagerservice.so": "9dd5e0627d9f9862c043680a2b4fb943bbfb9ee40e8dde8c46b32d99fbda3dc6"
+    },
+    "ndkRevision": "21.4.7075529",
+    "packagerSha256": "9024a82ccf1d69959a68f96823b8412d106464c9fb159de72c3c698774492f18",
+    "platformArchive": {
+      "sha256": "7fd1610e16a69ac2e202278e82077de134ce404fe099d872019f69f3a340acdd",
+      "size": 498049256,
+      "url": "https://dl.google.com/android/repository/sys-img/android/arm64-v8a-29_r08.zip"
+    },
+    "sourceInputLockSha256": "e5b58c64ca95f377484ecd1a8d2d535479bf92fb4cac05981101faf835835cc9",
+    "sourceModified": false,
+    "sourceRevision": "android-10.0.0_r41",
+    "systemImageSha256": "3292f3ab677b975e51566e53355ae9c268e17b86888a9a8b40f8e6c3372fc26c"
+  },
+  "sourceSha1": "fa0d67d7430fcc84b2fe2508ea81e92ac644e264",
+  "sourceSha256": "7fd1610e16a69ac2e202278e82077de134ce404fe099d872019f69f3a340acdd",
+  "sourceUrl": "https://dl.google.com/android/repository/sys-img/android/arm64-v8a-29_r08.zip"
+}

@@ -1,0 +1,25 @@
+{
+  "commonPageSize": 4096,
+  "coreHeadersManifestSha256": "3046ebd29f32418ec08366233734cee61b263d7a0752132911fa66198a1649e4",
+  "files": {
+    "bin/andvm_bluetooth_hidl": "a90fc82fc84c1ecef19fa56c12b5417bc2de715639db6ae55d7f19655740dfe9"
+  },
+  "framingSourceSha256": "51b727cbbc2a650c220af0b149284ee9f673aaae1adfb031c8fe8358ab970d9e",
+  "guestSdk": 29,
+  "headersManifestSha256": "17dc3e8aee2f5ba40a0305636b6d78597d34cfd6d40e0b0354c6255ef2c426e7",
+  "linkLibraries": {
+    "android.hardware.bluetooth@1.0.so": "9bdb45fdbd21fd383e3f1c3c6f0405f4f1b6fba6e0ae62f4c9ad9a45ccc786aa",
+    "libc++.so": "b80e3e846106faaa105ea5b1083be65a26124ddbe6ffadfa47f3fc6621ed357f",
+    "libhidlbase.so": "01b029e4dc8bd6e3e958429324c33914696c54d8ae0eeebbd5fc1c791db8f306",
+    "libhidltransport.so": "b745964db16179f87d38191f20444c5da641795a7974cc44789b4e03351af18b",
+    "liblog.so": "98fc36f851044f4b8e922588513db162c2e4c165287c26df69646739334e8044",
+    "libutils.so": "907ce0c3c5255230ad32c902ac7efdbfe9a6ea3f0c7ab8af694d11fa3f18011a"
+  },
+  "maxPageSize": 16384,
+  "ndkRevision": "21.4.7075529",
+  "payloadSha256": "ce09ec4b7aef78aab389f69c81b02c8e669f7b100a91bdffa7098ddf9577671f",
+  "serviceSourceSha256": "441b44f749f6358d1c63c0161257fbd50a481cea3dc23f467b86710d61bd981d",
+  "sourceSha256": "7fd1610e16a69ac2e202278e82077de134ce404fe099d872019f69f3a340acdd",
+  "sourceUrl": "https://dl.google.com/android/repository/sys-img/android/arm64-v8a-29_r08.zip",
+  "transport": "private-h4-over-/dev/hvc5"
+}

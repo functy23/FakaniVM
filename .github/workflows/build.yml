@@ -1,0 +1,57 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+
+      - name: 环境信息
+        run: |
+          java -version
+          python3 --version
+          SDK="${ANDROID_HOME:-/usr/local/lib/android/sdk}"
+          echo "ANDROID_HOME=$SDK"
+          ls "$SDK/build-tools" || true
+
+      - name: 结构自检
+        run: |
+          set -e
+          test -f app/AndroidManifest.xml
+          test -f app/apktool.yml
+          test -d app/smali
+          test -d app/res
+          test -d app/lib
+          test -f runtime/classes2.dex
+          test -f tools/apktool.jar
+          echo "structure OK"
+
+      - name: 构建
+        run: |
+          chmod +x build.sh
+          ./build.sh
+
+      - name: 产物校验
+        run: |
+          set -e
+          APK=build/FakaniVM.apk
+          test -f "$APK"
+          unzip -l "$APK" | grep -q 'classes.dex'
+          unzip -l "$APK" | grep -q 'classes2.dex'
+          test "$(unzip -l "$APK" | grep -c 'META-INF/services/')" -ge 2
+          ls -lh "$APK"
+
+      - uses: actions/upload-artifact@v5
+        with:
+          name: FakaniVM
+          path: build/FakaniVM.apk
+          retention-days: 14

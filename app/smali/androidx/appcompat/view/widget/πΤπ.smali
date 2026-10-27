@@ -1,0 +1,16 @@
+.class Landroidx/appcompat/view/widget/πΤπ;
+.super Landroidx/appcompat/view/widget/ǘТǘ;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Landroidx/appcompat/view/widget/ǘТǘ;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

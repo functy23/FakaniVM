@@ -1,0 +1,25 @@
+{
+  "commonPageSize": 4096,
+  "coreHeadersManifestSha256": "3046ebd29f32418ec08366233734cee61b263d7a0752132911fa66198a1649e4",
+  "files": {
+    "bin/andvm_vibrator_hidl": "759fa5de20f3851d7ad187b38f934489cf51d629612f9258ab399de29bfc9ae4"
+  },
+  "guestSdk": 29,
+  "headersManifestSha256": "b3890689c31a713498236792eefe1e2c4ba137243175bed42e1015804682c778",
+  "linkLibraries": {
+    "android.hardware.vibrator@1.0.so": "8df31fd7ff44879d2d7f4655fab22ccb36f22d237e983c7d0accc10e68b895f4",
+    "libc++.so": "b80e3e846106faaa105ea5b1083be65a26124ddbe6ffadfa47f3fc6621ed357f",
+    "libhidlbase.so": "01b029e4dc8bd6e3e958429324c33914696c54d8ae0eeebbd5fc1c791db8f306",
+    "libhidltransport.so": "b745964db16179f87d38191f20444c5da641795a7974cc44789b4e03351af18b",
+    "liblog.so": "98fc36f851044f4b8e922588513db162c2e4c165287c26df69646739334e8044",
+    "libutils.so": "907ce0c3c5255230ad32c902ac7efdbfe9a6ea3f0c7ab8af694d11fa3f18011a"
+  },
+  "maxPageSize": 16384,
+  "ndkRevision": "21.4.7075529",
+  "payloadSha256": "a70732741414e646239dde903c22d5b6fe358aff289ab8e61549732313ff2757",
+  "serviceSourceSha256": "3062a6f04134cb936c835bc779e0c7409e44370226b78ef0039f31389529c516",
+  "sourceSha256": "7fd1610e16a69ac2e202278e82077de134ce404fe099d872019f69f3a340acdd",
+  "sourceUrl": "https://dl.google.com/android/repository/sys-img/android/arm64-v8a-29_r08.zip",
+  "transport": "host-vibration-v2-over-/data/andvm-display/vibrator.sock",
+  "wireSourceSha256": "1009c3ed76d8bba612b3ae7aa5a73c8ffd1187dd85c337761424cd7089b739fe"
+}

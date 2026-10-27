@@ -1,0 +1,39 @@
+{
+  "callbackStartupContract": "buffer-real-status-until-getCameraIdList-after-registration",
+  "facingPatch": {
+    "adaptedSha256": "67e53321b09a7b1cd791e144f481ff19e8b8b0d0eb83677e95c9154911456a38",
+    "cameraIds": "unchanged-video-path",
+    "contract": "/dev/video0:back,/dev/video1:front,other:external",
+    "hardwareLevel": "unchanged-external",
+    "instructionOffset": 154484,
+    "path": "lib64/camera.device@3.4-external-impl.so",
+    "selectorOffset": 294320,
+    "selectorSha256": "aa5ba93110caa12b7b2ed0076b85a90b6b4fd6f67a84f928247f23ba0d281015",
+    "selectorSourceSha256": "59871d3d80d994b157fce9007ccef71eb5b4225d1da745248579b531ccbedfc0",
+    "sourceSha256": "3086194c875c0ca9b626644d24685a902b1ed906b1bd3cae68fe7227ec84171a"
+  },
+  "files": {
+    "bin/andvm_camera_hidl": "85edb3f67cab352c1b75a6216ffa5c2f982c07d4a5c3739c8d1e7a484620c7b3",
+    "lib64/android.hardware.camera.provider@2.4-external.so": "b4443ddea8b97b17d4ba8ec69a3a7b1a608d98d8b38a73e5c4d542d6d1cad15c",
+    "lib64/android.hardware.camera.provider@2.4-legacy.so": "bf6f61ce46401c3e39811046a390182c6d0b434a0fff87fd24de762dafac58ad",
+    "lib64/camera.device@1.0-impl.so": "bf4feb5546224c11a34af7a8729bdb7dd67ec36e4573dfa2a491659477929ef1",
+    "lib64/camera.device@3.2-impl.so": "a8af5b203aaacf7622aae0f960381990130bb20f01786b6f1d99c08035caaa60",
+    "lib64/camera.device@3.3-impl.so": "4c0a613cb578e7fbd1dd7cf4fed422dbcb197286e5b3027f9c1ed63b78e60083",
+    "lib64/camera.device@3.4-external-impl.so": "67e53321b09a7b1cd791e144f481ff19e8b8b0d0eb83677e95c9154911456a38",
+    "lib64/camera.device@3.4-impl.so": "7b11e0b543cb2dc6f0768cb23f60d20b27585c36a3b5667ed132b202e9320d9c",
+    "lib64/camera.device@3.5-external-impl.so": "5bb76bffc05970dbfdc632094232c2eb222d1476e41e0818ca13ff0e38c2fd24",
+    "lib64/camera.device@3.5-impl.so": "fcb3927e26c9edcd738a1bf5d9ba380ef78a3b4a5bc18beb8b952746e98222ca",
+    "lib64/hw/android.hardware.camera.provider@2.4-impl.so": "557dbedf28fb5850ccf227ceca77f80b5616d5f2aed5fdd457e3836f7439eb16"
+  },
+  "guestSdk": 29,
+  "launcherCallbackGateSha256": "50fdf8e66eb1553b9f162a90f3d9e76490a6b95af86eb3cc3a9d690093efdf0b",
+  "launcherCommonPageSize": 4096,
+  "launcherHeadersManifestSha256": "3046ebd29f32418ec08366233734cee61b263d7a0752132911fa66198a1649e4",
+  "launcherMaxPageSize": 16384,
+  "launcherSourceSha256": "5b09af97a3efedfe7f9e2f3855effe1097f0c43821e075db67a2f43d4a83e678",
+  "ndkRevision": "21.4.7075529",
+  "payloadSha256": "16595288a5374a3c0278f2de36318f0413bd09b1dfd9476a637bf6ec40797330",
+  "sourceSha1": "fa0d67d7430fcc84b2fe2508ea81e92ac644e264",
+  "sourceSha256": "7fd1610e16a69ac2e202278e82077de134ce404fe099d872019f69f3a340acdd",
+  "sourceUrl": "https://dl.google.com/android/repository/sys-img/android/arm64-v8a-29_r08.zip"
+}

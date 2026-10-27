@@ -1,0 +1,68 @@
+.class public Lobfuscated/p392a8619a3cb095a/c489e996efdfe827967549ba0;
+.super Ljava/lang/Object;
+
+
+# direct methods
+.method public static varargs ඈ([Ljava/io/Closeable;)V
+    .locals 3
+
+    .line 1
+    if-nez p0, :cond_0
+
+    .line 2
+    .line 3
+    goto :goto_1
+
+    .line 4
+    :cond_0
+    :try_start_0
+    array-length v0, p0
+
+    .line 5
+    const/4 v1, 0x0
+
+    .line 6
+    :goto_0
+    if-ge v1, v0, :cond_2
+
+    .line 7
+    .line 8
+    aget-object v2, p0, v1
+
+    .line 9
+    .line 10
+    if-eqz v2, :cond_1
+
+    .line 11
+    .line 12
+    invoke-interface {v2}, Ljava/io/Closeable;->close()V
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 13
+    .line 14
+    .line 15
+    :cond_1
+    add-int/lit8 v1, v1, 0x1
+
+    .line 16
+    .line 17
+    goto :goto_0
+
+    .line 18
+    :cond_2
+    :goto_1
+    return-void
+
+    .line 19
+    :catch_0
+    move-exception p0
+
+    .line 20
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
+
+    .line 21
+    .line 22
+    .line 23
+    return-void
+.end method

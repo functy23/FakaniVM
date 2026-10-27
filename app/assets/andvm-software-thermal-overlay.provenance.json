@@ -1,0 +1,22 @@
+{
+  "aapt2": "Android Asset Packaging Tool (aapt) 2.19-11948202",
+  "apkSha256": "d0cedfeb6d0531c4e3c165cd02b5ec3c3adc8b36c04da5b3ffbe61b12889a0d7",
+  "isStatic": true,
+  "package": "com.lerist.andvm.software.telephony.thermal.overlay",
+  "partitionScope": "vendor",
+  "priority": 0,
+  "resource": "array/thermal_mitigation_allowlisted_packages",
+  "runtimeVerified": false,
+  "schema": 1,
+  "signatureIdentity": "independent-AndVM-key-not-original-ROM-key",
+  "signerCertificateSha256": "956806e88e429769e7a6f2f4e05308c0d05ff7243df124edfa67b49f4db919ec",
+  "sourceFiles": {
+    "guest/software-thermal-overlay/AndroidManifest.xml": "fb8bac81996b32ae5bd7fbf79a39669ce2a511f95c785e1a3edefd2573c41553",
+    "guest/software-thermal-overlay/res/values/arrays.xml": "71fcae4fc39185e282cdfb0dce8e7ab071ab2d363cd9ba29a609353fec63d3d0"
+  },
+  "targetName": null,
+  "targetPackage": "com.android.phone",
+  "values": [
+    "com.google.android.connectivitythermalpowermanager"
+  ]
+}

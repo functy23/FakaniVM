@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="andvm_background">#ff06090a</color>
+    <color name="andvm_error">#ffff8078</color>
+    <color name="andvm_error_container">#ff3a1412</color>
+    <color name="andvm_inverse_on_surface">#ff06090a</color>
+    <color name="andvm_inverse_primary">#ff25a863</color>
+    <color name="andvm_inverse_surface">#ffe6edea</color>
+    <color name="andvm_on_background">#ffe6edea</color>
+    <color name="andvm_on_error">#ff2c0605</color>
+    <color name="andvm_on_error_container">#ffff8078</color>
+    <color name="andvm_on_primary">#ff03210f</color>
+    <color name="andvm_on_primary_container">#ff3ddc84</color>
+    <color name="andvm_on_secondary">#ff04222c</color>
+    <color name="andvm_on_secondary_container">#ff6fd3f2</color>
+    <color name="andvm_on_surface">#ffe6edea</color>
+    <color name="andvm_on_surface_variant">#ffa3b1ae</color>
+    <color name="andvm_on_tertiary">#ff2a1c00</color>
+    <color name="andvm_on_tertiary_container">#fff5b841</color>
+    <color name="andvm_outline">#ff33403f</color>
+    <color name="andvm_outline_variant">#ff20292c</color>
+    <color name="andvm_primary">#ff3ddc84</color>
+    <color name="andvm_primary_container">#ff10351f</color>
+    <color name="andvm_secondary">#ff6fd3f2</color>
+    <color name="andvm_secondary_container">#ff0e2c36</color>
+    <color name="andvm_surface">#ff0d1214</color>
+    <color name="andvm_surface_container">#ff151c1f</color>
+    <color name="andvm_surface_container_high">#ff151c1f</color>
+    <color name="andvm_surface_container_highest">#ff1d262a</color>
+    <color name="andvm_surface_container_low">#ff0d1214</color>
+    <color name="andvm_surface_container_lowest">#ff06090a</color>
+    <color name="andvm_surface_variant">#ff151c1f</color>
+    <color name="andvm_tertiary">#fff5b841</color>
+    <color name="andvm_tertiary_container">#ff33270b</color>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="l_lerinet_hint_no_network">网络不可用, 请检查网络连接</string>
+    <string name="lib_factory_a_web_menu_openinbrowser">在浏览器中打开</string>
+    <string name="lib_factory_a_web_menu_refresh">刷新</string>
+    <string name="lnotice_dialog_btn_agree">同意</string>
+    <string name="lnotice_dialog_btn_dont_agree">不同意</string>
+    <string name="lnotice_dialog_btn_no_longer_prompt">不再显示</string>
+    <string name="lnotice_dialog_btn_ok">确定</string>
+</resources>

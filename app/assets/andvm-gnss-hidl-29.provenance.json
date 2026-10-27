@@ -1,0 +1,25 @@
+{
+  "commonPageSize": 4096,
+  "coreHeadersManifestSha256": "3046ebd29f32418ec08366233734cee61b263d7a0752132911fa66198a1649e4",
+  "files": {
+    "bin/andvm_gnss_hidl": "ea6cb85e9927ed7ed9b0a694c6007be01633c8e4a790dc463cb6631f01b387e6"
+  },
+  "guestSdk": 29,
+  "headersManifestSha256": "e838aafd03fa684b0184d8f382d7201f78c939181a12ac85f96c26f129031ab8",
+  "linkLibraries": {
+    "android.hardware.gnss@1.0.so": "cfa10218a1da5662459832730c3a32aa403c920cd37e25a9a76695baba2413ba",
+    "libc++.so": "b80e3e846106faaa105ea5b1083be65a26124ddbe6ffadfa47f3fc6621ed357f",
+    "libhidlbase.so": "01b029e4dc8bd6e3e958429324c33914696c54d8ae0eeebbd5fc1c791db8f306",
+    "libhidltransport.so": "b745964db16179f87d38191f20444c5da641795a7974cc44789b4e03351af18b",
+    "liblog.so": "98fc36f851044f4b8e922588513db162c2e4c165287c26df69646739334e8044",
+    "libutils.so": "907ce0c3c5255230ad32c902ac7efdbfe9a6ea3f0c7ab8af694d11fa3f18011a"
+  },
+  "maxPageSize": 16384,
+  "ndkRevision": "21.4.7075529",
+  "payloadSha256": "2ed62f4955af01c4536a5b18b5a978657628c3fea306625584b8dbe27baf02b8",
+  "serviceSourceSha256": "57bbfb73100e03b10a8d66ce46f7d9240349a589c89cea67cb93076b7b948a54",
+  "sourceSha256": "7fd1610e16a69ac2e202278e82077de134ce404fe099d872019f69f3a340acdd",
+  "sourceUrl": "https://dl.google.com/android/repository/sys-img/android/arm64-v8a-29_r08.zip",
+  "transport": "host-location-over-/data/andvm-display/gnss.sock",
+  "wireSourceSha256": "970abf59651116201248fe5c502892dae9baeb596bf60313ca173f5951401a16"
+}

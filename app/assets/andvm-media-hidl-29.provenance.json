@@ -1,0 +1,44 @@
+{
+  "binaryChanges": "Services remain unmodified; private minijail rebuilt from pinned Q source to select packaged ARM64 policy, fail closed when absent",
+  "buildLibraries": {
+    "libbase.so": "8157df5d792e2b6f8877bcdb901405c43b0ac2b1b9559586f86123a18ffcce02",
+    "libc++.so": "b80e3e846106faaa105ea5b1083be65a26124ddbe6ffadfa47f3fc6621ed357f",
+    "liblog.so": "98fc36f851044f4b8e922588513db162c2e4c165287c26df69646739334e8044",
+    "libminijail.so": "477bf336f44ce651a40d1a950eab440ee2540da82074241fba2546a8cc9354ea"
+  },
+  "drm": "AOSP ClearKey 1.2 software DRM/Crypto factories, instance clearkey",
+  "files": {
+    "bin/andvm_drm_clearkey29": "5cc8d880e673fa858ba72e28bce93ecc279a2463f29a8197a36922c6f32e9188",
+    "bin/andvm_omx29": "4f033e20770979280ab2e8c4ebcdc56e8d492c39d77b4b700766790a5550d95d",
+    "etc/seccomp_policy/andvm-media-hal29/mediacodec.arm64.policy": "e529d80729976c2ef41f6831820da5f387b7cdbd44f8b1b33d0e7cf9cd1462b8",
+    "lib64/andvm-media-hal29/libavservices_minijail_vendor.so": "f37711b06c65026b37acc23805cdf71a0887727f235f172a3a60a7ee9926894e"
+  },
+  "guestSdk": 29,
+  "ndkRevision": "21.4.7075529",
+  "omx": "AOSP OMX 1.0 IOmx and IOmxStore using imported ROM libstagefright_omx and real plugin inventory",
+  "originalMinijailSha256": "aa71ecadebbccd5514b92f931d816a282bf8d42e8272d951be9043aacfbc190a",
+  "payloadSha256": "c28ec05ae99b89d856fb12745091cc77c137ccb6d651431c00908f18d3e59c01",
+  "privateDependencies": [
+    "libavservices_minijail_vendor.so"
+  ],
+  "privateMinijailSourceSha256": "d5da91c3ea6f1b76758a4525509540a10f95500120a957de800e6bc24ba9b71f",
+  "runtimeGate": "Actual ROM DT_NEEDED and strong import closure for services and private dependency",
+  "seccompPolicy": {
+    "additionalRomPolicy": "not consumed by the private managed ARM64 service",
+    "architecture": "AArch64",
+    "path": "etc/seccomp_policy/andvm-media-hal29/mediacodec.arm64.policy",
+    "sha256": "e529d80729976c2ef41f6831820da5f387b7cdbd44f8b1b33d0e7cf9cd1462b8",
+    "sourcePath": "/system/etc/seccomp_policy/mediacodec.policy"
+  },
+  "sourceArchiveSha256": "7fd1610e16a69ac2e202278e82077de134ce404fe099d872019f69f3a340acdd",
+  "sourceArchiveSize": 498049256,
+  "sourceInputLockSha256": "7f7fa33a62a200775d5da6d79055e04d4102125796dd9f6a1bb3cc8640dbf2f4",
+  "sourcePaths": {
+    "bin/andvm_drm_clearkey29": "bin/hw/android.hardware.drm@1.2-service.clearkey",
+    "bin/andvm_omx29": "bin/hw/android.hardware.media.omx@1.0-service",
+    "lib64/andvm-media-hal29/libavservices_minijail_vendor.so": "lib64/libavservices_minijail_vendor.so"
+  },
+  "sourceUrl": "https://dl.google.com/android/repository/sys-img/android/arm64-v8a-29_r08.zip",
+  "systemImageSha256": "3292f3ab677b975e51566e53355ae9c268e17b86888a9a8b40f8e6c3372fc26c",
+  "vendorImageSha256": "7102b193cf76254482d016fe9cd2a944e403846b53ed5baa525dd9040d5f7fff"
+}

@@ -1,0 +1,63 @@
+{
+  "builderSha256": "324b2c77bb37831a94b294b5c4b520fb85a89d78c1bf84dbd365b98dccaeadf5",
+  "capabilities": "Host mask intersected with supportedSensorIds",
+  "files": {
+    "system/bin/andvm_sensors_hidl29": "f1de5a9cd9997431c05c423b5d31c6ae6cc807922ca9dc46349c2058fd6af69f",
+    "system/lib64/andvm-sensors-hidl/android.hardware.sensors@1.0-impl.so": "007a2ee077338530cce5fe5bfcec73023346d957a82532a15a9baa27ae73a841",
+    "system/lib64/andvm-sensors-hidl/android.hardware.sensors@1.0.so": "4142e0c0f26f6b8920bbe8fd98b7cb012e84143be6ad92abdc9fe3f8d084f2e1",
+    "system/lib64/andvm-sensors-hidl/sensors.andvm.so": "6c46a3a3d3769f6f7f79af6cdfdf429abc939d8e0e1faf79bcc268d203672cfd"
+  },
+  "guestSdk": 29,
+  "moduleSelectionEntrypoints": [
+    "hw_get_module",
+    "_Z25get_multi_hal_module_infov"
+  ],
+  "ndk": "Pkg.Desc = Android NDK\nPkg.Revision = 21.4.7075529\n",
+  "officialInputs": {
+    "lib64/hw/android.hardware.sensors@1.0-impl.so": "007a2ee077338530cce5fe5bfcec73023346d957a82532a15a9baa27ae73a841",
+    "system/lib64/android.hardware.sensors@1.0.so": "4142e0c0f26f6b8920bbe8fd98b7cb012e84143be6ad92abdc9fe3f8d084f2e1",
+    "system/lib64/libc++.so": "b80e3e846106faaa105ea5b1083be65a26124ddbe6ffadfa47f3fc6621ed357f",
+    "system/lib64/libhidlbase.so": "01b029e4dc8bd6e3e958429324c33914696c54d8ae0eeebbd5fc1c791db8f306",
+    "system/lib64/libhidltransport.so": "b745964db16179f87d38191f20444c5da641795a7974cc44789b4e03351af18b",
+    "system/lib64/libutils.so": "907ce0c3c5255230ad32c902ac7efdbfe9a6ea3f0c7ab8af694d11fa3f18011a"
+  },
+  "payloadSha256": "ac50bd991ff40b6f40d62d83bec6331dba5df76768ea7888dca97c8317d2b4bc",
+  "sensorsHidlVersion": "1.0",
+  "sharedHeadersManifestSha256": "3046ebd29f32418ec08366233734cee61b263d7a0752132911fa66198a1649e4",
+  "sourceUrl": "https://dl.google.com/android/repository/sys-img/android/arm64-v8a-29_r08.zip",
+  "sources": {
+    "README.md": "7ce881198c64d1083a9cfc8c5a14ad9a7c1698ec33f38c02a700e076f87f2c4e",
+    "SensorsRuntimeProbe.java": "91f88276e47e3b27878cb3cb14b55161f45c27aaee07da4166c9f08f4aab9bce",
+    "hidl_probe.cpp": "30222b37c8dfefda36ff92ccbd9f7eafc44282fabe196f4d1ed953c8d6386756",
+    "launcher.cpp": "1177af9ef97df505cd53200c6a121836f74ec0f99d34f40c99aa7174adcc610e",
+    "module_fixture.cpp": "345088349f4160b7dc44038541ccc631179d0b1773f62ca37f767f3036a6e2f3",
+    "port.py": "d545d57bf0f386cdbe06b8830f4afcd42b96383edfd08ddab3d01e80fb628918",
+    "qemud.h": "e0aa72cc4f0acdde5cd5fd616e6247abd218f68c6b3949c67b9003ebea659999",
+    "test_module.py": "03e96004053540876adc0c6b4a11a56569e3689c0ccb44e1557666d500fcb04a",
+    "test_transport.py": "c9e2820da0010a4f242e8b80fec96da671739c9e329f87e756448b0561c46d0c",
+    "transport.cpp": "2c521a3de88e24450eed1760a35070c9da60ea4e6821b1b1e2ac706bd72b23d1",
+    "upstream/include/android/hardware/sensors/1.0/ISensors.h": "21a252ebc07a63eb002bc17fea111e4112077cab2273a5f32c1cefccc419c51c",
+    "upstream/include/android/hardware/sensors/1.0/types.h": "a5e0858da1716fdb8a13e1d461e377de4491888ce19741886e72740c9dd0a044",
+    "upstream/include/hardware/hardware.h": "05cc2f0108d6c87e36384380559943d34acd104e3c2ade9aeba4415cfb23aee8",
+    "upstream/include/hardware/sensors-base.h": "14c3215ff1af6a40f472e9b5cb16a246aa2c4700265e5dc2f3da0182ac3da976",
+    "upstream/include/hardware/sensors.h": "cea4854ec5f87dd42793dce372c81e2c4235e7e2dc081da8ce5ab81893a790d0",
+    "upstream/sensors_qemu.c": "5e957ebb6d64f4539a95643028d581836ad200bfd100e27051a8325cd617e0be",
+    "upstream/source-manifest.json": "595200ec2bc492bf29cfaec9d321a8dc12967487d4f2ebcfb98f773007ed4773"
+  },
+  "supportedSensorIds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "systemImageSha256": "3292f3ab677b975e51566e53355ae9c268e17b86888a9a8b40f8e6c3372fc26c",
+  "timestamp": "Guest BOOTTIME at packet receipt; original module clamps against future timestamps",
+  "transport": "Existing AndVM Host control/data UDS; physical or explicitly configured virtual Host policy",
+  "vendorImageSha256": "7102b193cf76254482d016fe9cd2a944e403846b53ed5baa525dd9040d5f7fff"
+}

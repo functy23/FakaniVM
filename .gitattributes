@@ -1,0 +1,22 @@
+* text=auto eol=lf
+
+# 二进制资源
+*.so        binary
+*.dex       binary
+*.apk       binary
+*.jar       binary
+*.zip       binary
+*.png       binary
+*.jpg       binary
+*.webp      binary
+*.arsc      binary
+*.ttf       binary
+*.keystore  binary
+*.idsig     binary
+
+# 随包资源，不计入语言统计
+app/smali/**   linguist-vendored
+app/res/**     linguist-vendored
+app/assets/**  linguist-vendored
+app/lib/**     linguist-vendored
+runtime/**     linguist-vendored

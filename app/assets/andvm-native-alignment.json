@@ -1,0 +1,2103 @@
+{
+  "schema": 1,
+  "page_size": 16384,
+  "recipe": "relro-zero-fill-v1",
+  "tool_sha256": "7fd59094369976384c4fc5ac4768eeb23859cfb2b3944461e8d07c88daf87068",
+  "checker_sha256": "392eac61a36fd9f387ad0a05f1cc7f0220ac6c201f381168ba0da05dfed903cb",
+  "records": [
+    {
+      "status": "padded",
+      "before_sha256": "4d8e0d3edc835b766c6f4ee84171d9854ddc71a4d05d55dfb0feab172329ab12",
+      "after_sha256": "1204e7f797ca75fa89f395816f66a81be85802c61fa6e54ae4a3a4896c7f4541",
+      "file_size": 6576,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 1536,
+          "after": 13824
+        },
+        {
+          "offset": 552,
+          "width": 8,
+          "before": 1536,
+          "after": 13824
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 1536,
+          "after": 13824
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 8,
+          "field": "p_memsz",
+          "file_offset": 552,
+          "field_size": 8,
+          "before": 1536,
+          "after": 13824
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 36864,
+          "new_virtual_end": 49152,
+          "zero_fill_bytes": 12288
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_a10_dlopen_probe.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "a3833794cd68202018930e130e238b206cd5a0c322050ccb8af8fe4e58f3e4b3",
+      "after_sha256": "eb6766c2f660adfbd62ccfe07e12ee9f890e80de49d9146be8259099b3a1f538",
+      "file_size": 102616,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 4096,
+          "after": 16384
+        },
+        {
+          "offset": 440,
+          "width": 8,
+          "before": 4096,
+          "after": 16384
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 4096,
+          "after": 16384
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 6,
+          "field": "p_memsz",
+          "file_offset": 440,
+          "field_size": 8,
+          "before": 4096,
+          "after": 16384
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 86016,
+          "new_virtual_end": 98304,
+          "zero_fill_bytes": 12288
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_a10_liblog.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "3fb92e6b17720f0345841986a52bd92c64ff8297a3f33480f861c70a7717ee4a",
+      "after_sha256": "2e6c66eb45931c7ee36dca35ab79ebebac5df6baa4dd2d9106e76469f6344dfe",
+      "file_size": 5760,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 2080,
+          "after": 14368
+        },
+        {
+          "offset": 384,
+          "width": 8,
+          "before": 2080,
+          "after": 14368
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 2080,
+          "after": 14368
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 5,
+          "field": "p_memsz",
+          "file_offset": 384,
+          "field_size": 8,
+          "before": 2080,
+          "after": 14368
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 36864,
+          "new_virtual_end": 49152,
+          "zero_fill_bytes": 12288
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_a10_mapper3.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "d2258059ab53b841067f29c02d427bb97291f09ff15ac0a198b35de618a52743",
+      "after_sha256": "73ed96824c53a5e8e70f9e13916e862509d9dc3f8ba4c55550af6e899fe4c8dd",
+      "file_size": 186200,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 8192,
+          "after": 16384
+        },
+        {
+          "offset": 496,
+          "width": 8,
+          "before": 8192,
+          "after": 16384
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 8192,
+          "after": 16384
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 7,
+          "field": "p_memsz",
+          "file_offset": 496,
+          "field_size": 8,
+          "before": 8192,
+          "after": 16384
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 172032,
+          "new_virtual_end": 180224,
+          "zero_fill_bytes": 8192
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_a16_libapexsupport.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "8767f4960e421a94299d21c59a0cfad647b66bbd28c3a5947774391d9a51a9dd",
+      "after_sha256": "76e9f0dd3e4294df74902b6ca246d08c27355e5ccaee11c56731bc6ff9a280e5",
+      "file_size": 1001944,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 69632,
+          "after": 81920
+        },
+        {
+          "offset": 496,
+          "width": 8,
+          "before": 69632,
+          "after": 81920
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 69632,
+          "after": 81920
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 7,
+          "field": "p_memsz",
+          "file_offset": 496,
+          "field_size": 8,
+          "before": 69632,
+          "after": 81920
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 954368,
+          "new_virtual_end": 966656,
+          "zero_fill_bytes": 12288
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_a16_libbinder.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "4f6c19548edf9dec85a0e093a9c3f11a92adfdd26a1e68570df3afdd580df2f7",
+      "after_sha256": "6ef27c06306686dead9ddc98ce103ee34848241319ccd3809863572fdb61f6cc",
+      "file_size": 205624,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 8192,
+          "after": 16384
+        },
+        {
+          "offset": 440,
+          "width": 8,
+          "before": 8192,
+          "after": 16384
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 8192,
+          "after": 16384
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 6,
+          "field": "p_memsz",
+          "file_offset": 440,
+          "field_size": 8,
+          "before": 8192,
+          "after": 16384
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 188416,
+          "new_virtual_end": 196608,
+          "zero_fill_bytes": 8192
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_a16_libbinder_ndk.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "cad1938137842cc691a3cdddb20f4d32cc8cf9b496fcf9155134ef6b5543eb56",
+      "after_sha256": "6a9b667eaa009f8649937b57660312c830ab4b7d1a1c6e861d5a0f3c65d967a1",
+      "file_size": 68240,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 4096,
+          "after": 16384
+        },
+        {
+          "offset": 440,
+          "width": 8,
+          "before": 4096,
+          "after": 16384
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 4096,
+          "after": 16384
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 6,
+          "field": "p_memsz",
+          "file_offset": 440,
+          "field_size": 8,
+          "before": 4096,
+          "after": 16384
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 53248,
+          "new_virtual_end": 65536,
+          "zero_fill_bytes": 12288
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_a16_libnativewindow.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "8f7251d3cb265a1867a1241fb618438c82b6f0b110fc31418dd018d06cdf9af0",
+      "after_sha256": "da766d307b1bea3cce70e66d7c0fd4f8a609e32a4fdd4a3f629b87a936486b61",
+      "file_size": 51304,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 4096,
+          "after": 16384
+        },
+        {
+          "offset": 440,
+          "width": 8,
+          "before": 4096,
+          "after": 16384
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 4096,
+          "after": 16384
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 6,
+          "field": "p_memsz",
+          "file_offset": 440,
+          "field_size": 8,
+          "before": 4096,
+          "after": 16384
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 36864,
+          "new_virtual_end": 49152,
+          "zero_fill_bytes": 12288
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_a16_libsync.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "77cdbadf07dc1813bb485c99d01163e8669de790a496eba6b9d0b09aae8cc5b6",
+      "after_sha256": "532f0a1ff1a1b28a75a4b10cc788ba239d8061ddf436d1c16b242eaac39b5180",
+      "file_size": 443976,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 12288,
+          "after": 16384
+        },
+        {
+          "offset": 440,
+          "width": 8,
+          "before": 12288,
+          "after": 16384
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 12288,
+          "after": 16384
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 6,
+          "field": "p_memsz",
+          "file_offset": 440,
+          "field_size": 8,
+          "before": 12288,
+          "after": 16384
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 421888,
+          "new_virtual_end": 425984,
+          "zero_fill_bytes": 4096
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_a16_libui.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "d776233d2c7d2e40cd13c4c30ca73440e3a83f8bdb0b26a445baa31b858d5b86",
+      "after_sha256": "33e7ebb1d1f5ea55e6984b09248c2348d72e18c5efef010c74114dfff300ae59",
+      "file_size": 51424,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 4096,
+          "after": 16384
+        },
+        {
+          "offset": 440,
+          "width": 8,
+          "before": 4096,
+          "after": 16384
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 4096,
+          "after": 16384
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 6,
+          "field": "p_memsz",
+          "file_offset": 440,
+          "field_size": 8,
+          "before": 4096,
+          "after": 16384
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 36864,
+          "new_virtual_end": 49152,
+          "zero_fill_bytes": 12288
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_a16_libvndksupport.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "dda026aecaec957a74b599524a661e85a6a0d10db2503d948b726198c828960a",
+      "after_sha256": "44769a7ed3d21d4da1517a0124bb47d1b5d7cf63ac233c4facf45b1e64cbef35",
+      "file_size": 186088,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 12288,
+          "after": 16384
+        },
+        {
+          "offset": 496,
+          "width": 8,
+          "before": 12288,
+          "after": 16384
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 12288,
+          "after": 16384
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 7,
+          "field": "p_memsz",
+          "file_offset": 496,
+          "field_size": 8,
+          "before": 12288,
+          "after": 16384
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 176128,
+          "new_virtual_end": 180224,
+          "zero_fill_bytes": 4096
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_apexsupport_compat.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "d42bb8c348bb18e7797c7abff2d63bfaa0751d8afba5b0e6d35b3eb6deae660d",
+      "after_sha256": "83366f6beacefec16f7a1d4a35a28fdc7ccb793f2a8cd1437c7cc908544d7c4b",
+      "file_size": 15312,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 3712,
+          "after": 7808
+        },
+        {
+          "offset": 384,
+          "width": 8,
+          "before": 3712,
+          "after": 7808
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 3712,
+          "after": 7808
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 5,
+          "field": "p_memsz",
+          "file_offset": 384,
+          "field_size": 8,
+          "before": 3712,
+          "after": 7808
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 45056,
+          "old_load_virtual_end": 45056,
+          "new_virtual_end": 49152,
+          "zero_fill_bytes": 4096,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_binder_ndk_compat.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "49955fc64ec7dfce4441ef85ad388b3e346e640adf8d17e3a57aea9cb3bd81f0",
+      "after_sha256": "5c6f7048ceb0bbd782c3c3d55bbd1133edc15423c6c67eed8b81c00e4047ac47",
+      "file_size": 4944,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 2544,
+          "after": 14832
+        },
+        {
+          "offset": 384,
+          "width": 8,
+          "before": 2544,
+          "after": 14832
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 2544,
+          "after": 14832
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 5,
+          "field": "p_memsz",
+          "file_offset": 384,
+          "field_size": 8,
+          "before": 2544,
+          "after": 14832
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 36864,
+          "new_virtual_end": 49152,
+          "zero_fill_bytes": 12288
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_dmabuf_closure.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "d58ed85dfecb0e4e469f4c641f183146d1e4f60bb6a939ae7715aff881f4b521",
+      "after_sha256": "dfed81c495c5111886deb7378ff423bcd6dbe9c9ccf0851babce9921cbd60632",
+      "file_size": 349600,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 3520,
+          "after": 15808
+        },
+        {
+          "offset": 552,
+          "width": 8,
+          "before": 3520,
+          "after": 15808
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 3520,
+          "after": 15808
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 8,
+          "field": "p_memsz",
+          "file_offset": 552,
+          "field_size": 8,
+          "before": 3520,
+          "after": 15808
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 380928,
+          "old_load_virtual_end": 380928,
+          "new_virtual_end": 393216,
+          "zero_fill_bytes": 12288,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_dump_erofs.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "78c240bc9cecda933c6f4e48bc195d33c56f117ff795d4f463fdf3e0a510b3a9",
+      "after_sha256": "05e0db1eda8fa14029ec55019cd89dffad693db8e898a92675e2ef9f0a79c6d3",
+      "file_size": 2818308,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 257576,
+          "after": 262144
+        },
+        {
+          "offset": 384,
+          "width": 8,
+          "before": 257576,
+          "after": 262144
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 257576,
+          "after": 262144
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 5,
+          "field": "p_memsz",
+          "file_offset": 384,
+          "field_size": 8,
+          "before": 257576,
+          "after": 262144
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 2682408,
+          "old_load_virtual_end": 2682408,
+          "new_virtual_end": 2686976,
+          "zero_fill_bytes": 4568,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_erofs_metadata.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "f5c8a3178fe1206a92d5c1acd4610f688f8a998471655df0b8d5e7b97679eb7d",
+      "after_sha256": "7b39b61bf785b471ac527ea5bb51f1aee85af39114e7ced11d776cea18c5e85e",
+      "file_size": 353256,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 3328,
+          "after": 11520
+        },
+        {
+          "offset": 552,
+          "width": 8,
+          "before": 3328,
+          "after": 11520
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 3328,
+          "after": 11520
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 8,
+          "field": "p_memsz",
+          "file_offset": 552,
+          "field_size": 8,
+          "before": 3328,
+          "after": 11520
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 385024,
+          "old_load_virtual_end": 385024,
+          "new_virtual_end": 393216,
+          "zero_fill_bytes": 8192,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_erofs_reader.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "9283cabef01e81f643fe16650c5d92c3a5df23307d67bfc57c51bc584c904655",
+      "after_sha256": "65bfd46879f6c7e8c0a5d66bdc3b3c024fcb34e671c739071b6346252a5b6036",
+      "file_size": 2294020,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 207104,
+          "after": 212992
+        },
+        {
+          "offset": 384,
+          "width": 8,
+          "before": 207104,
+          "after": 212992
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 207104,
+          "after": 212992
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 5,
+          "field": "p_memsz",
+          "file_offset": 384,
+          "field_size": 8,
+          "before": 207104,
+          "after": 212992
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 2238720,
+          "old_load_virtual_end": 2238720,
+          "new_virtual_end": 2244608,
+          "zero_fill_bytes": 5888,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_erofs_tar.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "3dfe0b1827aa18499f631e80a94556ee2365eb0a9c096466a42fd709489ebed5",
+      "after_sha256": "b2c10c2187a5e9fdac335cd2cd4919ac33c5b3df7ea4d482e9085d274c064978",
+      "file_size": 422696,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 21504,
+          "after": 25600
+        },
+        {
+          "offset": 552,
+          "width": 8,
+          "before": 21504,
+          "after": 25600
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 21504,
+          "after": 25600
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 8,
+          "field": "p_memsz",
+          "file_offset": 552,
+          "field_size": 8,
+          "before": 21504,
+          "after": 25600
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 454656,
+          "new_virtual_end": 458752,
+          "zero_fill_bytes": 4096
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_gnss_unavailable.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "a801a01cb627d8aa4e82b95f491f336d3d26a8c2afc24a0cb3f95a71c58c9f74",
+      "after_sha256": "49f992dcfb73721211aa346f3945716e7e9dc5c98e1f77451a0e4e192cd76b7e",
+      "file_size": 7088,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 1296,
+          "after": 13584
+        },
+        {
+          "offset": 440,
+          "width": 8,
+          "before": 1296,
+          "after": 13584
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 1296,
+          "after": 13584
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 6,
+          "field": "p_memsz",
+          "file_offset": 440,
+          "field_size": 8,
+          "before": 1296,
+          "after": 13584
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 36864,
+          "old_load_virtual_end": 36864,
+          "new_virtual_end": 49152,
+          "zero_fill_bytes": 12288,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_graphics_compat.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "4ab4423ed1f995fa7013d377023953e71e4c5b35de7413bd5d82675cf002007f",
+      "after_sha256": "f427e03d1c537fc4282081329154841433147c62aba6347cfb6184cf763b3315",
+      "file_size": 102200,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 5888,
+          "after": 18176
+        },
+        {
+          "offset": 440,
+          "width": 8,
+          "before": 5888,
+          "after": 18176
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 5888,
+          "after": 18176
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 6,
+          "field": "p_memsz",
+          "file_offset": 440,
+          "field_size": 8,
+          "before": 5888,
+          "after": 18176
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 135168,
+          "old_load_virtual_end": 135168,
+          "new_virtual_end": 147456,
+          "zero_fill_bytes": 12288,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_guest_egl.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "704732c7880995617202c9f8e2a93563387c568c94f17b8f7c2111cefbd34a6a",
+      "after_sha256": "a3e24ac9950e50e658435bbd0472eb568ec9dc970d6f173b1a1a8c1896bc3e7c",
+      "file_size": 125056,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 10752,
+          "after": 14848
+        },
+        {
+          "offset": 440,
+          "width": 8,
+          "before": 10752,
+          "after": 14848
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 10752,
+          "after": 14848
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 6,
+          "field": "p_memsz",
+          "file_offset": 440,
+          "field_size": 8,
+          "before": 10752,
+          "after": 14848
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 159744,
+          "old_load_virtual_end": 159744,
+          "new_virtual_end": 163840,
+          "zero_fill_bytes": 4096,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_guest_gles2.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "66e3aaa4fae1f8a77dd78285470ff703a2a4efc902757c777dfa7d066e6a0842",
+      "after_sha256": "2304619146151a7387688b30aaa77a22e748a1b885111ad369d6588b24a356f8",
+      "file_size": 4629224,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 123360,
+          "after": 135648
+        },
+        {
+          "offset": 496,
+          "width": 8,
+          "before": 123360,
+          "after": 135648
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 123360,
+          "after": 135648
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 7,
+          "field": "p_memsz",
+          "file_offset": 496,
+          "field_size": 8,
+          "before": 123360,
+          "after": 135648
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 4657152,
+          "old_load_virtual_end": 4657152,
+          "new_virtual_end": 4669440,
+          "zero_fill_bytes": 12288,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_guest_gles_core.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "70f86c79ad2785032a894f1a84ed35ff046ae4283044db6e2f65d5dc26bd6b03",
+      "after_sha256": "6b24374882aa1fb350b5b0247c8d419355acf91b443680187d6f1cbbc84ebfc5",
+      "file_size": 2142152,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 86160,
+          "after": 94352
+        },
+        {
+          "offset": 440,
+          "width": 8,
+          "before": 86160,
+          "after": 94352
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 86160,
+          "after": 94352
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 6,
+          "field": "p_memsz",
+          "file_offset": 440,
+          "field_size": 8,
+          "before": 86160,
+          "after": 94352
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 2170880,
+          "old_load_virtual_end": 2170880,
+          "new_virtual_end": 2179072,
+          "zero_fill_bytes": 8192,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_guest_kumquat_allocator.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "a08694aac193a9f996a2db5197a249174e7189e3dfc1e13196fc704ccb8a8512",
+      "after_sha256": "9928c68497b15d06cc92868c848155a004527fd93001cddd9cfb13c5430bc40a",
+      "file_size": 2282416,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 104592,
+          "after": 108688
+        },
+        {
+          "offset": 496,
+          "width": 8,
+          "before": 104592,
+          "after": 108688
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 104592,
+          "after": 108688
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 7,
+          "field": "p_memsz",
+          "file_offset": 496,
+          "field_size": 8,
+          "before": 104592,
+          "after": 108688
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 2306048,
+          "old_load_virtual_end": 2306048,
+          "new_virtual_end": 2310144,
+          "zero_fill_bytes": 4096,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_guest_vulkan_ranchu.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "f6d3a60f813cb907a96866035cf41ea0a72f5082ea72f9f53058d458209be849",
+      "after_sha256": "d4b1ef342677b7a5ce96b7581cc25932ce3ba1fc84b3322486a2ad92d557d23b",
+      "file_size": 276000,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 15872,
+          "after": 19968
+        },
+        {
+          "offset": 552,
+          "width": 8,
+          "before": 15872,
+          "after": 19968
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 15872,
+          "after": 19968
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 8,
+          "field": "p_memsz",
+          "file_offset": 552,
+          "field_size": 8,
+          "before": 15872,
+          "after": 19968
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 307200,
+          "new_virtual_end": 311296,
+          "zero_fill_bytes": 4096
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_h_mtd.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "df781e44ded119f85e45ebdc8bffd614307ec577c47e0c94e984cf47e601cc6c",
+      "after_sha256": "2684337666920100b9b914287ebda9b6489488ee5e3e180f9accce72a2282365",
+      "file_size": 2142088,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 86224,
+          "after": 94416
+        },
+        {
+          "offset": 440,
+          "width": 8,
+          "before": 86224,
+          "after": 94416
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 86224,
+          "after": 94416
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 6,
+          "field": "p_memsz",
+          "file_offset": 440,
+          "field_size": 8,
+          "before": 86224,
+          "after": 94416
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 2170880,
+          "old_load_virtual_end": 2170880,
+          "new_virtual_end": 2179072,
+          "zero_fill_bytes": 8192,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_legacy_guest_kumquat_allocator.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "8c8d99624d5453bab4cb493ca2d8b1cef83c874f1467baec5b0493fc846c8066",
+      "after_sha256": "be2d0fb9964da529ff3853eb605dd3a8accba27a3cf6ead3a41c11d824b0e2a2",
+      "file_size": 9304,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 3536,
+          "after": 11728
+        },
+        {
+          "offset": 440,
+          "width": 8,
+          "before": 3536,
+          "after": 11728
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 3536,
+          "after": 11728
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 6,
+          "field": "p_memsz",
+          "file_offset": 440,
+          "field_size": 8,
+          "before": 3536,
+          "after": 11728
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 40960,
+          "old_load_virtual_end": 40960,
+          "new_virtual_end": 49152,
+          "zero_fill_bytes": 8192,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_legacy_vulkan_hal.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "64612f7bf6327234224fa3efb52fc0b82b38d67be87807d06aad0562e917b820",
+      "after_sha256": "1328f2f58d794a236ecdea9966d19b60b6a37f9f145f367534b46943713a5f38",
+      "file_size": 2281472,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 105392,
+          "after": 109488
+        },
+        {
+          "offset": 496,
+          "width": 8,
+          "before": 105392,
+          "after": 109488
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 105392,
+          "after": 109488
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 7,
+          "field": "p_memsz",
+          "file_offset": 496,
+          "field_size": 8,
+          "before": 105392,
+          "after": 109488
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 2306048,
+          "old_load_virtual_end": 2306048,
+          "new_virtual_end": 2310144,
+          "zero_fill_bytes": 4096,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_legacy_vulkan_real.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "bda2f91eb778c910d8887f55e856a0ec4cec59cfdd0ab5772d415334618ba3f1",
+      "after_sha256": "a46b4cc1946e2609571041c8ffb420f0ae6eafd292aaa6270ba7a2c85e9d8993",
+      "file_size": 6600,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 1216,
+          "after": 13504
+        },
+        {
+          "offset": 384,
+          "width": 8,
+          "before": 1216,
+          "after": 13504
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 1216,
+          "after": 13504
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 5,
+          "field": "p_memsz",
+          "file_offset": 384,
+          "field_size": 8,
+          "before": 1216,
+          "after": 13504
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 36864,
+          "new_virtual_end": 49152,
+          "zero_fill_bytes": 12288
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_libcxx_hash_compat.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "f90a515e96bb5428face13f6246f9ecd2a3b25d126285dc0fac6c56c88d7a631",
+      "after_sha256": "6d9aef9ed2552b20d6a37b6cdb90ad4a8c8471a1e8f0506dfe59dd415c8072a3",
+      "file_size": 386952,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 5760,
+          "after": 13952
+        },
+        {
+          "offset": 552,
+          "width": 8,
+          "before": 5760,
+          "after": 13952
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 5760,
+          "after": 13952
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 8,
+          "field": "p_memsz",
+          "file_offset": 552,
+          "field_size": 8,
+          "before": 5760,
+          "after": 13952
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 417792,
+          "old_load_virtual_end": 417792,
+          "new_virtual_end": 425984,
+          "zero_fill_bytes": 8192,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_mkfs_erofs.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "2fd5df061ca8accb2cc51881b0df5629b85bf5b76ec3e2833ba2c49919e318b5",
+      "after_sha256": "94fac1fca37339e5c1f0fb69d1adf459a2c0375861f6192a93ddcf9d03f30cee",
+      "file_size": 2167832,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 7104,
+          "after": 15296
+        },
+        {
+          "offset": 440,
+          "width": 8,
+          "before": 7104,
+          "after": 15296
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 7104,
+          "after": 15296
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 6,
+          "field": "p_memsz",
+          "file_offset": 440,
+          "field_size": 8,
+          "before": 7104,
+          "after": 15296
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 2564096,
+          "new_virtual_end": 2572288,
+          "zero_fill_bytes": 8192
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_package_native_compat.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "7ac87f8af5eeccd38c5e15458ef86ad4e51e60b1c45dfbe4b67493740d2199c9",
+      "after_sha256": "6919fbd2b5f9cd9526643b12bf3c94f868f3a90486d46f2ea50a9f6d3b753383",
+      "file_size": 848176,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 18944,
+          "after": 31232
+        },
+        {
+          "offset": 552,
+          "width": 8,
+          "before": 18944,
+          "after": 31232
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 18944,
+          "after": 31232
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 8,
+          "field": "p_memsz",
+          "file_offset": 552,
+          "field_size": 8,
+          "before": 18944,
+          "after": 31232
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 544768,
+          "new_virtual_end": 557056,
+          "zero_fill_bytes": 12288
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_radio_service.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "50e82bfb8774e4859fff72b3590bcafe2601202240df4acb32684cdddb73e3e0",
+      "after_sha256": "ca0b84a9ce875c51d91f3ab639a5ba14cf1d829d68f500457c8daa587786d2ab",
+      "file_size": 2294020,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 202816,
+          "after": 212992
+        },
+        {
+          "offset": 384,
+          "width": 8,
+          "before": 202816,
+          "after": 212992
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 202816,
+          "after": 212992
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 5,
+          "field": "p_memsz",
+          "file_offset": 384,
+          "field_size": 8,
+          "before": 202816,
+          "after": 212992
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 2168896,
+          "old_load_virtual_end": 2168896,
+          "new_virtual_end": 2179072,
+          "zero_fill_bytes": 10176,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_selinux_init_policy.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "575fbd35124eb1730c801093e09a98b210e2d78a5bbeae6445bf644406a6130c",
+      "after_sha256": "3cb260329bb184a075721a55ce5e916d5040a7dc159e0b94baf4e33ce2425de6",
+      "file_size": 2359556,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 212648,
+          "after": 212992
+        },
+        {
+          "offset": 384,
+          "width": 8,
+          "before": 212648,
+          "after": 212992
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 212648,
+          "after": 212992
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 5,
+          "field": "p_memsz",
+          "file_offset": 384,
+          "field_size": 8,
+          "before": 212648,
+          "after": 212992
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 2244264,
+          "old_load_virtual_end": 2244264,
+          "new_virtual_end": 2244608,
+          "zero_fill_bytes": 344,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_selinux_process_policy.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "e8ebef2b886b33f6b31f19ab14fb4d927215d38da4d1fbf75cf281cfef7f432c",
+      "after_sha256": "3d08ff68a3cb7bae746cbc602929bf55e9496e7d06e18b92714ce1342a1a23fe",
+      "file_size": 2294020,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 207264,
+          "after": 212992
+        },
+        {
+          "offset": 384,
+          "width": 8,
+          "before": 207264,
+          "after": 212992
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 207264,
+          "after": 212992
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 5,
+          "field": "p_memsz",
+          "file_offset": 384,
+          "field_size": 8,
+          "before": 207264,
+          "after": 212992
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 2173344,
+          "old_load_virtual_end": 2173344,
+          "new_virtual_end": 2179072,
+          "zero_fill_bytes": 5728,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_selinux_property_policy.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "c05cd8afd2bf31155b444e4030846b9d109e4341ac3e451e9a688491c3fe7ace",
+      "after_sha256": "cd04d6f3c128ff272f1748dd689aca5f275211e70acf3f073d65994a24398b84",
+      "file_size": 2359556,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 213128,
+          "after": 229376
+        },
+        {
+          "offset": 384,
+          "width": 8,
+          "before": 213128,
+          "after": 229376
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 213128,
+          "after": 229376
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 5,
+          "field": "p_memsz",
+          "file_offset": 384,
+          "field_size": 8,
+          "before": 213128,
+          "after": 229376
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 2244744,
+          "old_load_virtual_end": 2244744,
+          "new_virtual_end": 2260992,
+          "zero_fill_bytes": 16248,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_selinux_service_policy.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "44a5d3b8f49b12f910eb06bd65c1622822960232db99726fec354adf09a4de8a",
+      "after_sha256": "e60039bdf946b4632c2d1d3db2b5dc8ef7ee3280032e468236c851711fb9d9dc",
+      "file_size": 163968,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 6976,
+          "after": 15168
+        },
+        {
+          "offset": 552,
+          "width": 8,
+          "before": 6976,
+          "after": 15168
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 6976,
+          "after": 15168
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 8,
+          "field": "p_memsz",
+          "file_offset": 552,
+          "field_size": 8,
+          "before": 6976,
+          "after": 15168
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 155648,
+          "new_virtual_end": 163840,
+          "zero_fill_bytes": 8192
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_sensor_service.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "0cdb32552d28123bad69468fd440c2caf0ff3a12b1d22db9e798f83077118a4f",
+      "after_sha256": "64e9969ecca72755982150d9f6c933495261118a18b5c5dd5cd8eeebcc6b9329",
+      "file_size": 237032,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 328,
+          "width": 8,
+          "before": 16128,
+          "after": 24320
+        },
+        {
+          "offset": 552,
+          "width": 8,
+          "before": 16128,
+          "after": 24320
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 4,
+          "field": "p_memsz",
+          "file_offset": 328,
+          "field_size": 8,
+          "before": 16128,
+          "after": 24320
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 8,
+          "field": "p_memsz",
+          "file_offset": 552,
+          "field_size": 8,
+          "before": 16128,
+          "after": 24320
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 270336,
+          "new_virtual_end": 278528,
+          "zero_fill_bytes": 8192
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_v_configstore.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "627f57010b307fd6ac0725e935f2d0049f5d5d8e329eb3920eee18be8a5f7abe",
+      "after_sha256": "d8339ecc88e6d63684f48ed8c51eae86d7b5d87b39f97562d432830126d953ab",
+      "file_size": 9161312,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 85408,
+          "after": 97696
+        },
+        {
+          "offset": 496,
+          "width": 8,
+          "before": 85408,
+          "after": 97696
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 85408,
+          "after": 97696
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 7,
+          "field": "p_memsz",
+          "file_offset": 496,
+          "field_size": 8,
+          "before": 85408,
+          "after": 97696
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 2117632,
+          "old_load_virtual_end": 2117632,
+          "new_virtual_end": 2129920,
+          "zero_fill_bytes": 12288,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libandvm_vsync_pacer.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "43261f7906447f4a0941118bfd0ca0f3a45cd9a0e259135ebb3089ec49620ce3",
+      "after_sha256": "9491d37817e085db38be8123ee4b84ab76021d3f4e848ca1556452b479685649",
+      "file_size": 8216,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 4512,
+          "after": 12704
+        },
+        {
+          "offset": 440,
+          "width": 8,
+          "before": 4512,
+          "after": 12704
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 4512,
+          "after": 12704
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 6,
+          "field": "p_memsz",
+          "file_offset": 440,
+          "field_size": 8,
+          "before": 4512,
+          "after": 12704
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 40960,
+          "old_load_virtual_end": 40960,
+          "new_virtual_end": 49152,
+          "zero_fill_bytes": 8192,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libavm_wait.so"
+    },
+    {
+      "status": "padded",
+      "before_sha256": "24569703c44b081138d068a7b613563b36d372a98a8f3db237e80383f4b2edeb",
+      "after_sha256": "a29e76998284d5c5037a1990486361497a0aaa0e08f63352989894459ace8c6f",
+      "file_size": 6140240,
+      "byte_order": "little",
+      "elf_class": 64,
+      "edits": [
+        {
+          "offset": 272,
+          "width": 8,
+          "before": 76448,
+          "after": 84640
+        },
+        {
+          "offset": 496,
+          "width": 8,
+          "before": 76448,
+          "after": 84640
+        }
+      ],
+      "edited_header_fields": [
+        {
+          "segment_type": "PT_LOAD",
+          "header_index": 3,
+          "field": "p_memsz",
+          "file_offset": 272,
+          "field_size": 8,
+          "before": 76448,
+          "after": 84640
+        },
+        {
+          "segment_type": "GNU_RELRO",
+          "header_index": 7,
+          "field": "p_memsz",
+          "file_offset": 496,
+          "field_size": 8,
+          "before": 76448,
+          "after": 84640
+        }
+      ],
+      "growth": [
+        {
+          "old_virtual_end": 6168576,
+          "old_load_virtual_end": 6168576,
+          "new_virtual_end": 6176768,
+          "zero_fill_bytes": 8192,
+          "existing_relro_slack_bytes": 0
+        }
+      ],
+      "path": "jniLibs/arm64-v8a/libgfxstream_backend.so"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+.class public final synthetic Landroidx/appcompat/view/widget/ჲٚ;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Landroidx/appcompat/view/widget/ݕ$ඈ;
+
+
+# instance fields
+.field public final synthetic ඈ:Landroidx/appcompat/view/widget/կ̛;
+
+
+# direct methods
+.method public synthetic constructor <init>(Landroidx/appcompat/view/widget/կ̛;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Landroidx/appcompat/view/widget/ჲٚ;->ඈ:Landroidx/appcompat/view/widget/կ̛;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final ඈ()I
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Landroidx/appcompat/view/widget/ჲٚ;->ඈ:Landroidx/appcompat/view/widget/կ̛;
+
+    .line 2
+    .line 3
+    invoke-static {p0}, Landroidx/appcompat/view/widget/կ̛;->ඓ(Landroidx/appcompat/view/widget/կ̛;)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    return p0
+.end method

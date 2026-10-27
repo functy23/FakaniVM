@@ -1,0 +1,9 @@
+schema=1
+artifact=runsc
+source_sha256=25dc6675c89db6902c5f7e1566728a9f33c4e038df8b87560ff318c2be17372b
+artifact_sha256=05603f895db8319ecfc32b235a227a287731675d8bdd7d07dd54781fe4b2241f
+runtime_snapshot=1
+profiling=0
+selective_obfuscation=1
+gsi_policy=runtime-per-instance
+gvisor_version=v0.0.0-20261007070447-2eb212ee0b6f

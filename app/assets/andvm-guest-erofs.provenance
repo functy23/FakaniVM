@@ -1,0 +1,5 @@
+schema=1
+artifact=guest-erofs
+artifact_sha256=960c03e40a63450a31d195376da66fd4d76c1e2380e239c08609fd0ce8c451c2
+gsi_system_image_sha256=262826090233aafca651291d9b4055b240c459072de6298e0546eebcc377aa8b
+compatibility_revision=169

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "system/bin/andvm_gatekeeper_hidl_legacy": "ac6ac9c06ddc82f39180d2ec60cfd3ef9358860e699cf0bd92513cc59d86bbf7",
+    "system/bin/andvm_keymaster_hidl": "94ad303f3b5357d028b1dc1d9f39517b1b311a30025994077854adca23948c4c",
+    "system/lib64/andvm-keymaster-hidl/android.hardware.gatekeeper@1.0.so": "76a0f5cc061012b7dd37c9465261d16e064c8742f9cdefdf21afec1c47ec39d9",
+    "system/lib64/andvm-keymaster-hidl/android.hardware.keymaster@3.0.so": "965e4c54f4787d774edc3351dd26e0e877c2b3d9c5f1b6f8a2691eff8edd3ba2",
+    "system/lib64/andvm-keymaster-hidl/android.hardware.keymaster@4.0.so": "73c6e777c9a929af77648fa9887b976ccb52dcba29c9435aab35325c150cf9ff",
+    "system/lib64/andvm-keymaster-hidl/android.hardware.keymaster@4.1.so": "497b2c9f30a65fb73edf0541696fab75dd14352323cf99552f1d59a42cba4f3c",
+    "system/lib64/andvm-keymaster-hidl/libkeymaster4.so": "62f077cc364771f204ed7549246e4b5269be59baada29fd0a03c51718bfc14a9",
+    "system/lib64/andvm-keymaster-hidl/libkeymaster41.so": "3aa473fac2709b6b12b66e5f7c51c664fa3ef334ad2ffe7dd7fa01dea8282c1a",
+    "system/lib64/andvm-keymaster-hidl/libkeymaster4_1support.so": "2863a7c40311bcd95231c534ebf6bfdc5f6f2fa4b441049306132ea96e1e8778",
+    "system/lib64/andvm-keymaster-hidl/libkeymaster4support.so": "35420749b616a9a5b6ae57b02e595b25a36d55a0b51b767a633cf95bb0522b05",
+    "system/lib64/andvm-keymaster-hidl/libkeymaster_messages.so": "29522cfce010f8edaded6e312affbd720502c49ce828721a45d34651ab1bae79",
+    "system/lib64/andvm-keymaster-hidl/libkeymaster_portable.so": "582b1b24d2393c991e9cd904911a220cc07a0d0f0d1942af1e330f28b3231dbd",
+    "system/lib64/andvm-keymaster-hidl/libpuresoftkeymasterdevice.so": "9b561e3448bb6fa210e82acdfd1b94ab749323dc441159d8d7349f10475386bd",
+    "system/lib64/andvm-keymaster-hidl/libsoft_attestation_cert.so": "a3358e4c74ade1de569aedb829c2235b65ae17b149bb8ffd1f18a99309077214"
+  },
+  "payloadSha256": "ec38d2547a5392aa42757c15a1623c3b930a9d40c4b87edaf24c7a044481b476",
+  "securityLevel": "software",
+  "sourceSha1": "e96298145a5e0bfd6da4816f51b06c520d8dba72",
+  "sourceSha256": "cb50112cf2dd234a71e2a29b0241c23dbb37dd5fc3156c68cc9c49d0f58ad304",
+  "sourceUrl": "https://dl.google.com/android/repository/sys-img/android/arm64-v8a-30_r02.zip"
+}
